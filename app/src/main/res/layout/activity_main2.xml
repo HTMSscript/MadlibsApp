@@ -54,68 +54,6 @@
             android:textSize="50dp"
             />
 
-        <EditText
-            android:id="@+id/et_noun1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Noun"
-            android:inputType="text"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/et_adj1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Adjective"
-            android:inputType="text"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/et_propernoun1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Proper Noun"
-            android:inputType="text"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/et_propernoun2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Proper Noun"
-            android:inputType="text"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/et_noun2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Noun"
-            android:inputType="text"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/et_verb1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Verb"
-            android:inputType="text"
-            android:textSize="20sp" />
-
-        <EditText
-            android:id="@+id/et_place1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10"
-            android:hint="Place"
-            android:inputType="text"
-            android:textSize="20sp" />
 
         <EditText
             android:id="@+id/et_pluralnoun1"
@@ -126,11 +64,88 @@
             android:inputType="text"
             android:textSize="20sp" />
 
-        <Button
-            android:id="@+id/btn_next"
+        <EditText
+            android:id="@+id/et_adj2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Next" />
+            android:ems="10"
+            android:hint="Adjective"
+            android:inputType="text"
+            android:textSize="20sp" />
 
+        <EditText
+            android:id="@+id/et_noun3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Noun"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_noun4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Noun"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_pluralnoun2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Plural Noun"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_adj3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Adjective"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_verb2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Verb"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_verb3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Verb"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <EditText
+            android:id="@+id/et_adj4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Adjective"
+            android:inputType="text"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btn_go"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Go!" />
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Back" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
