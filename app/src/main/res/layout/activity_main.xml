@@ -54,6 +54,12 @@
             android:textSize="50dp"
             />
 
+        <ImageView
+            android:id="@+id/iv_magicorb"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            app:srcCompat="@drawable/im_magicorb" />
+
         <EditText
             android:id="@+id/et_noun1"
             android:layout_width="match_parent"
