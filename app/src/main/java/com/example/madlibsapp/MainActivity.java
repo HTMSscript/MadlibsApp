@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText etAdj4;
     private Button btnBack;
     private Button btnGo;
+    private TextView tvStory;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -91,6 +92,16 @@ public class MainActivity extends AppCompatActivity {
         while (etAdj4.getText().toString().equals("")) {
             btnGo.setVisibility(View.INVISIBLE);
         }
+
+        btnGo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                setContentView(R.layout.activity_story);
+                tvStory = findViewById(R.id.tv_story);
+                tvStory.setText(story);
+
+            }
+        });
 
     }
 }
